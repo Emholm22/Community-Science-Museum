@@ -1,0 +1,471 @@
+#banner {
+    margin-top: -86px;
+    position: relative;
+}
+
+#banner .banner-cover img {
+    width: 100%;
+    height: auto;
+}
+
+#banner .banner-wrapper {
+    padding-top: 86px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+#banner .banner-content {
+    background: rgb(var(--color-secondary));
+    width: 404px;
+    padding-top: 93px;
+    padding-left: 11px;
+    padding-bottom: 27px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+}
+
+#banner .banner-content h1 {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 48px;
+}
+
+#banner .banner-content p {
+    font-size: 13px;
+    font-weight: 500;
+    width: 235px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#banner .dino {
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    width: 491px;
+}
+
+#banner .bird {
+    position: absolute;
+    top: 0;
+    right: 180px;
+    width: 280px;
+    z-index: 20;
+    margin-top: -45px;
+}
+
+#banner .container {
+    position: relative;
+}
+
+#banner .bird img {
+    width: 281px;
+}
+
+
+
+
+#exhibitionSpaces {
+    margin-top: 42px;
+    position: relative;
+}
+
+#exhibitionSpaces .title {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(var(--color-primary));
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
+
+#exhibitionSpaces .subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+#exhibitionSpaces .description {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 80px;
+}
+
+#exhibitionSpaces .exhibitionSlider {
+    padding-top: 95px;
+    padding-bottom: 15px;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#exhibitionSpaces::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(var(--color-secondary));
+}
+
+#exhibitionSpaces .exhibition-item {
+    height: 100%;
+}
+
+#exhibitionSpaces .exhibition-item .image {
+    flex-shrink: 0;
+}
+
+#exhibitionSpaces .exhibition-item .image img {
+    width: 100%;
+}
+
+#exhibitionSpaces .exhibition-item .content {
+    text-align: center;
+    display: flex;
+    height: 260px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#exhibitionSpaces .exhibition-item .content h4 {
+    text-align: center;
+    color: rgb(var(--color-primary));
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 14px;
+}
+
+#exhibitionSpaces .exhibition-item .content p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 42px;
+}
+
+#exhibitionSpaces .exhibition-item .content .explore-btn {
+    display: inline-block;
+    font-size: 32px;
+    color: white;
+    background: rgb(var(--color-primary));
+    padding: 15px 25px;
+    border-radius: 25px;
+    width: auto;
+}
+
+#exhibitionSpaces .exhibition-item .content .explore-btn:hover {
+    background: rgb(var(--color-primary), 80%);
+}
+
+#exhibitionSpaces .swiper-slide {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#exhibitionSpaces .swiper-button-prev {
+    left: -50px; /* Adjust as needed */
+}
+
+#exhibitionSpaces .swiper-button-next {
+    right: -50px; /* Adjust as needed */
+}
+
+#exhibitionSpaces .swiper-button-prev::after {
+    content: unset;
+}
+
+#exhibitionSpaces .swiper-button-next::after {
+    content: unset;
+}
+
+
+
+
+
+#join {
+    margin-top: 53px;
+    margin-bottom: 26px;
+}
+
+#join .join-content {
+    text-align: center;
+}
+
+#join .description {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 52px;
+}
+
+#join .join-btn {
+    background: rgb(var(--color-secondary));
+    padding: 8px 22px;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    border-radius: 25px;
+}
+
+#join .join-btn:hover {
+    background: rgb(var(--color-secondary), 80%);
+}
+
+
+
+
+
+
+@media (max-width: 639px) {
+    #banner .banner-cover img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #banner .bird {
+        display: none;
+    }
+
+    #banner .dino {
+        display: none;
+    }
+
+    #banner .banner-content {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+    #exhibitionSpaces .title {
+        font-size: 40px;
+    }
+
+    #exhibitionSpaces .subtitle {
+        font-size: 25px;
+    }
+
+    #exhibitionSpaces .description {
+        font-size: 25px;
+        padding: 0 20px;
+    }
+
+    #exhibitionSpaces .swiper-button-prev {
+        left: 0px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces .swiper-button-next {
+        right: 0px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces .exhibition-item .content p br {
+        display: none;
+    }
+
+    #exhibitionSpaces::after {
+        height: 25%;
+    }
+
+    #exhibitionSpaces .exhibition-item .content p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #exhibitionSpaces .exhibitionSlider {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+
+
+@media (min-width: 640px) and (max-width: 767px) {
+    #banner .banner-cover img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #banner .bird {
+        display: none;
+    }
+
+    #banner .dino {
+        display: none;
+    }
+
+    #banner .banner-content {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+
+    #exhibitionSpaces .description {
+        padding: 0 20px;
+    }
+
+    #exhibitionSpaces .exhibition-item .content p br {
+        display: none;
+    }
+
+    #exhibitionSpaces .exhibition-item .content {
+        height: 350px;
+    }
+
+    #exhibitionSpaces::after {
+        height: 35%;
+    }
+
+    #exhibitionSpaces .swiper-button-prev {
+        left: 0px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces .swiper-button-next {
+        right: 0px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces .exhibitionSlider {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #banner .banner-cover img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #banner .bird {
+        display: none;
+    }
+
+    #banner .banner-content {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #exhibitionSpaces .swiper-button-prev {
+        left: -10px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces .swiper-button-next {
+        right: -10px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces .exhibition-item .content p br {
+        display: none;
+    }
+
+    #exhibitionSpaces .exhibition-item .content p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #exhibitionSpaces .exhibition-item .content {
+        height: 400px;
+    }
+
+    #exhibitionSpaces::after {
+        height: 40%;
+    }
+
+    #exhibitionSpaces .exhibitionSlider {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #banner .banner-cover img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #banner .bird {
+        display: none;
+    }
+
+    #banner .banner-content {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    #exhibitionSpaces .swiper-button-prev {
+        left: -10px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces .swiper-button-next {
+        right: -10px; /* Adjust as needed */
+    }
+
+    #exhibitionSpaces::after {
+        height: 40%;
+    }
+
+    #exhibitionSpaces .exhibition-item .content p br {
+        display: none;
+    }
+
+    #exhibitionSpaces .exhibition-item .content {
+        height: 350px;
+    }
+
+    #exhibitionSpaces .exhibitionSlider {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    #banner .banner-cover img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #banner .bird {
+        display: none;
+    }
+
+
+    #exhibitionSpaces .exhibitionSlider {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #exhibitionSpaces .exhibition-item .content {
+        height: 350px;
+    }
+
+    #exhibitionSpaces .exhibition-item .content p br {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) { 
+    #exhibitionSpaces .exhibition-item .content p br {
+        display: none;
+    }
+
+    #banner .bird {
+        display: none;
+    }
+}
+    

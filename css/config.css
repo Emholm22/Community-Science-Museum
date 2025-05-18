@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Katibeh&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Katibeh&family=Karma&display=swap');
+@import url('./footer.css');
+@import url('./header.css');
+
+
+:root {
+    --color-primary: 154, 94, 189;
+    --color-secondary: 156, 189, 80;
+
+    --font-secondary: 'Katibeh', sans-serif;
+    --font-karma: 'Karma', serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: rgba(var(--color-secondary), 28%);
+}
+
+
+.container {
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
