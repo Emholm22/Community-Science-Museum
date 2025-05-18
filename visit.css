@@ -1,0 +1,419 @@
+#visitPlan {
+    margin-top: 42px;
+    position: relative;
+}
+
+#visitPlan .title {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(var(--color-primary));
+    padding-bottom: 45px;
+}
+
+#visitPlan .description {
+    font-size: 36px;
+    font-family: var(--font-karma);
+    font-weight: 500;
+    text-align: center;
+    padding: 0 80px;
+    line-height: 1.5;
+}
+
+#visitPlan .visitPlan-cards {
+    margin-top: 100px;
+    margin-bottom: 167px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 87px;
+}
+
+#visitPlan .visitPlan-cards .openingHours {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(var(--color-secondary), 28%);
+    color: #000;
+    padding: 35px 0px 52px 33px;
+    border-radius: 25px;
+    grid-column: span 2;
+}
+
+#visitPlan .visitPlan-cards .openingHours-item {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#visitPlan .visitPlan-cards .openingHours-item h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#visitPlan .visitPlan-cards .openingHours-item .content {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .openingHours .dinoImage {
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    width: 863px;
+    height: 483px;
+    z-index: 20;
+}
+
+#visitPlan .visitPlan-cards .admission {
+    background: rgba(var(--color-secondary), 28%);
+    color: #000;
+    padding: 35px 0px 85px 33px;
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+}
+
+#visitPlan .visitPlan-cards .admission-item {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#visitPlan .visitPlan-cards .admission-item h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#visitPlan .visitPlan-cards .admission-item .content {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .admission .rocket {
+    position: absolute;
+    bottom: 16px;
+    right: 0;
+    width: 140px;
+    height: 244px;
+    z-index: 20;
+    rotate: 45deg;
+}
+
+#visitPlan .visitPlan-cards .foodDrink {
+    background: rgba(var(--color-secondary), 28%);
+    color: #000;
+    padding: 35px 0px 127px 33px;
+    border-radius: 25px;
+}
+
+#visitPlan .visitPlan-cards .foodDrink-item {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#visitPlan .visitPlan-cards .foodDrink-item h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#visitPlan .visitPlan-cards .foodDrink-item .content {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .shop {
+    background: rgba(var(--color-secondary), 28%);
+    color: #000;
+    padding: 35px 0px 43px 33px;
+    border-radius: 25px;
+}
+
+#visitPlan .visitPlan-cards .shop-item {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#visitPlan .visitPlan-cards .shop-item h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#visitPlan .visitPlan-cards .shop-item .content {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .accessibility {
+    background: rgba(var(--color-secondary), 28%);
+    color: #000;
+    padding: 35px 0px 59px 33px;
+    border-radius: 25px;
+}
+
+#visitPlan .visitPlan-cards .accessibility-item {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#visitPlan .visitPlan-cards .accessibility-item h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#visitPlan .visitPlan-cards .accessibility-item .content {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .contactInfo {
+    background: rgba(var(--color-secondary), 28%);
+    color: #000;
+    padding: 35px 0px 59px 33px;
+    border-radius: 25px;
+    position: relative;
+    grid-column: span 2;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item h5 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .earthImage {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    width: 182px;
+    z-index: 20;
+    margin-top: -70px;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .getTickets-btn {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    display: inline-block;
+    font-size: 36px;
+    color: #000;
+    background: rgb(var(--color-primary));
+    padding: 15px 25px;
+    border-radius: 25px;
+    width: auto;
+}
+
+#visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .getTickets-btn:hover {
+    background: rgba(var(--color-primary), 0.8);
+}
+
+
+
+
+@media (max-width: 639px) {
+
+    #visitPlan .description {
+        padding: 0;
+    }
+
+    #visitPlan .dinoImage {
+        display: none;
+    }
+
+    #visitPlan .visitPlan-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    #visitPlan .visitPlan-cards .openingHours {
+        grid-column: span 1;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo {
+        grid-column: span 1;
+    }
+
+    #visitPlan .visitPlan-cards .content {
+        font-size: 25px !important;
+        word-break: break-all;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content {
+        font-size: 25px !important;
+        display: block;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .contact {
+        font-size: 25px !important;
+        word-break: break-all;
+    }
+
+    #visitPlan .visitPlan-cards .admission .rocket {
+        width: 70px;
+        height: 120px;
+        right: 30px;
+    }
+
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .earthImage {
+        right: 10px;
+        width: 100px;
+        margin-top: -30px;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .getTickets-btn {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (min-width: 640px) and (max-width: 767px) {
+    #visitPlan .description {
+        padding: 0;
+    }
+
+    #visitPlan .dinoImage {
+        display: none;
+    }
+
+    #visitPlan .visitPlan-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    #visitPlan .visitPlan-cards .openingHours {
+        grid-column: span 1;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo {
+        grid-column: span 1;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .earthImage {
+        right: 50px;
+        width: 120px;
+        margin-top: -30px;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .getTickets-btn {
+        position: static;
+        margin-top: 20px;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content {
+        display: block;
+    }
+
+
+    #visitPlan .visitPlan-cards .admission .rocket {
+        right: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #visitPlan .description {
+        padding: 0;
+    }
+
+    #visitPlan .visitPlan-cards .openingHours .dinoImage {
+        width: 400px;
+        height: auto;
+        top: 0;
+        margin-top: -70px;
+        right: 0;
+    }
+
+    #visitPlan .visitPlan-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    #visitPlan .visitPlan-cards .openingHours {
+        grid-column: span 1;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo {
+        grid-column: span 1;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .earthImage {
+        right: 50px;
+        width: 140px;
+        margin-top: -30px;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .getTickets-btn {
+        position: static;
+        margin-top: 20px;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content {
+        display: block;
+    }
+
+    #visitPlan .visitPlan-cards .admission .rocket {
+        right: 60px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    #visitPlan .visitPlan-cards .openingHours .dinoImage {
+        width: 600px;
+        height: auto;
+        top: 0;
+        margin-top: -100px;
+        right: 0;
+    }
+
+    #visitPlan .visitPlan-cards .admission .rocket {
+        width: 100px;
+        height: 150px;
+        right: 0;
+    }
+
+    #visitPlan .visitPlan-cards .contactInfo-item .contactInfo-content .earthImage {
+        right: 50px;
+        width: 140px;
+        margin-top: -30px;
+    }
+}
