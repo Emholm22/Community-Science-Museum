@@ -1,0 +1,191 @@
+#specialEvents {
+    margin-top: 42px;
+    position: relative;
+}
+
+#specialEvents .title {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(var(--color-primary));
+    padding-bottom: 45px;
+}
+
+#specialEvents .description {
+    font-size: 36px;
+    font-family: var(--font-karma);
+    font-weight: 500;
+    text-align: center;
+    padding: 0 80px;
+    line-height: 1.5;
+}
+
+#specialEvents .specialEvents-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 143px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#specialEvents .specialEvents-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    justify-self: center;
+}
+
+#specialEvents .specialEvents-item .image {
+    flex-shrink: 0;
+}
+
+#specialEvents .specialEvents-item .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#specialEvents .specialEvents-item .content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#specialEvents .specialEvents-item .content h4 {
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 24px;
+}
+
+#specialEvents .specialEvents-item .content p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 39px;
+    color: black;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+
+#specialEvents .specialEvents-item .content .learn-btn {
+    display: inline-block;
+    font-size: 32px;
+    color: white;
+    background: rgb(var(--color-primary));
+    padding: 15px 35px;
+    border-radius: 25px;
+    width: auto;
+}
+
+#specialEvents .specialEvents-item .content .learn-btn:hover {
+    background: rgba(var(--color-primary), 0.8);
+}
+
+#specialEvents .upcomingEvents-card {
+    max-width: 550px;
+    max-height: 550px;
+    background-color: #D58CFF;
+    padding: 45px 33px 100px 39px;
+    border-radius: 30px;
+    margin: 0 auto 135px;
+}
+
+#specialEvents .upcomingEvents-card h4 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+#specialEvents .upcomingEvents-card .eventSchedule {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-bottom: 86px;
+}
+
+#specialEvents .upcomingEvents-card .eventSchedule .event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+}
+
+#specialEvents .upcomingEvents-card .eventSchedule .event .eventName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#specialEvents .upcomingEvents-card .eventSchedule .event .eventName .name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#specialEvents .upcomingEvents-card .eventSchedule .event .eventDate {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#specialEvents .upcomingEvents-card .find-exhibitions p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+#specialEvents .upcomingEvents-card .explore-btn {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media (max-width: 639px) {
+
+    #specialEvents .description {
+        padding: 0 20px;
+    }
+
+    #specialEvents .upcomingEvents-card {
+        max-width: 100%;
+        padding: 30px 20px;
+        margin-bottom: 50px;
+    }
+
+    #specialEvents .specialEvents-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 70px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+
+    #specialEvents .specialEvents-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #specialEvents .specialEvents-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+    }
+}
